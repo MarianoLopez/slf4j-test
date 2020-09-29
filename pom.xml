@@ -18,6 +18,8 @@
 
     <modules>
         <module>customlogger-lib</module>
+        <module>customlogger-logback-impl</module>
+        <module>customlogger-log4j-impl</module>
         <module>cool-service</module>
     </modules>
 
