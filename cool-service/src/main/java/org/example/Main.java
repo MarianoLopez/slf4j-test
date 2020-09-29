@@ -1,9 +1,9 @@
 package org.example;
 
 public class Main {
-    private static CustomLogger customLogger = new CustomLogger(Main.class);
+    private static CustomLogger logger = new CustomLogger(Main.class);
 
     public static void main(String[] args) {
-        customLogger.debug("Hello world!");
+        logger.debug("Hello world!");
     }
 }
